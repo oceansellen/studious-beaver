@@ -1,0 +1,77 @@
+* {
+    font-family: sans-serif;
+}
+header {
+  background-color: #008F8C;
+  text-align: center;
+  padding: 20px 20px;
+  color: #FACFCE;
+}
+header nav ul {
+  display: inline-flex;
+  flex-flow: row wrap;
+  list-style-type: none;
+  justify-content: center;
+
+}
+header nav ul li {
+  padding: 0 40px 10px 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: monospace; !important
+}
+header nav ul li a:hover {
+  color: #023535;
+  font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    color: #015958;
+    padding: 20px 0;
+    font-family: monospace; !important
+}
+.properties table {
+    font-size: 0.9em;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    margin: 10px auto;
+    background-color: rgba(170, 217, 217, 0.7);
+}
+
+.properties table .text {
+    width: 100%;
+}
+
+.properties table .list {
+    width: 100%;
+}
+
+.properties table .font {
+    width: 100%;
+}
+
+.properties  table th {
+  background-color: #FACFCE;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  padding: 6px;
+  color: #023535;
+}
+.properties table td {
+  padding: 6px;
+  text-align: left;
+  font-size: 0.9em;
+  background-color: #23606E;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px 20px;
+}
+
+td:first-child {
+  font-weight: bold;
+  font-family: monospace; !important
+}
+
